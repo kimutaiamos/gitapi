@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 //import { GithubComponent } from './github/github.component';
 import { HttpClientModule } from '@angular/common/http';
+import { GitUserComponent } from './git-user/git-user.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GitUserComponent
   ],
   imports: [
     BrowserModule,
