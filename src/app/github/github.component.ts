@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GithubService } from '../github.service';
 
 @Component({
   selector: 'app-github',
@@ -23,7 +24,7 @@ export class GithubComponent implements OnInit {
     });
   }
 
-  constructor(private service:GithubserviceService, private aron:RepoService) {
+  constructor(private service:GithubService, private aron:RepoService) {
     
    }
 
